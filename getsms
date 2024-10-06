@@ -2,7 +2,9 @@
 
 This API endpoint is used to **retrieve SMS messages** received on the smartphone.
 
-### Endpoint: https://api.smsmobileapi.com/getsms/?apikey=YOUR_API_KEY
+### Endpoint: 
+
+https://api.smsmobileapi.com/getsms/?apikey=YOUR_API_KEY
 
 ### Parameters:
 
