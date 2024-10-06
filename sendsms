@@ -1,10 +1,17 @@
+## Send SMS API
 
-Send SMS API
 This API endpoint allows sending an SMS via an HTTP request from the smartphone.
+
+### Endpoint:
+
 https://api.smsmobileapi.com/sendsms/?recipients=PHONE_NUMBER&message=MESSAGE_TO_SEND&apikey=YOUR_API_KEY
-Parameters:
-- recipients: The mobile number of the recipient.
-- message: The message to send.
-- apikey: The API key you have or will receive.
-Note :
+
+### Parameters:
+
+- **recipients**: The mobile number of the recipient.
+- **message**: The message to send.
+- **apikey**: The API key you have or will receive.
+
+### Note:
+
 Due to obligations related to phone usage and Android's policies, we are required to increase the delay between sending two SMS messages if the application is running in the background or is closed. Indeed, SMS messages can still be sent even when the mobile application is closed, but this will result in an increased dispatch delay.
